@@ -12,15 +12,15 @@ int main()
 	int flag = 0;//Number of records
 
 	printf("len=");//length of array
-	scanf_s("%d", &len);
+	scanf("%d", &len);
 	printf("val=");//delete
-	scanf_s("%d", &val);
+	scanf("%d", &val);
 
 	/*input data*/
 	printf("nums(len+1)=");
 	for (int i = 0; i <= len; i++)
 	{
-		scanf_s("%d", &nums[i]);
+		scanf("%d", &nums[i]);
 	}
 
 	/*delete data*/
