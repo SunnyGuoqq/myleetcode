@@ -7,7 +7,7 @@
 
 int main()
 {
-	int nums[100];//an array
+	int nums[100];//maxsize = 100
 	int target;
 	int len;//length of array
 
