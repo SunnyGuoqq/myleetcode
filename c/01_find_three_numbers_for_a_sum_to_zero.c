@@ -7,7 +7,7 @@
 
 int main()
 {
-	int nums[100];
+	int nums[100];//maxsize = 100
 	int len, j, k;
 	int temp = 0;//a temporary variable when sorting
 
