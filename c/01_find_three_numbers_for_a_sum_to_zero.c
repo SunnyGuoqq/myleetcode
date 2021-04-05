@@ -13,9 +13,9 @@ int main()
 
 	printf("len=");
 	scanf("%d", &len);
-	printf("nums[len+1]");
 
 	/*input data*/
+	printf("nums[len+1]");
 	for (int i = 0; i <= len; i++)
 	{
 		scanf("%d", &nums[i]);
