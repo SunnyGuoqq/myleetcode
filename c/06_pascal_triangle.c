@@ -3,7 +3,7 @@
 #include<stdio.h>
 #define MAXSIZE 100
 
-/*Given a non-empty array of decimal digits representing a non-negative integer, increment one to the integer. reinserted in order.  */
+/*Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.  */
 
 int main()
 {
