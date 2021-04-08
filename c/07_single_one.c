@@ -24,6 +24,7 @@ int main()
 	{
 		x = x ^ nums[j];
 	}
-	printf("%d\n", x);
+	printf("%d",x);
+	return 0;
 }
 
