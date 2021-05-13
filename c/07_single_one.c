@@ -3,7 +3,9 @@
 #include<stdio.h>
 #define MAXSIZE 100
 
-/*Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.  */
+/*Given a non-empty array of integers nums, 
+ * every element appears twice except for one. 
+ * Find that single one.  */
 
 int main()
 {
@@ -11,9 +13,9 @@ int main()
 	int len, x;
 
 	/*input data*/
-	printf("len=");
+	printf("The length of nums:");
 	scanf_s("%d", &len);
-	printf("nums[len+1]=");
+	printf("nums[len+1]=(digital)");
 	for (int i = 0; i <= len; i++)
 	{
 		scanf_s("%d", &nums[i]);
